@@ -1,25 +1,22 @@
-# Java Game Project
+# God of War Java Game
 
-This repository contains a game developed using **Java** to demonstrate object-oriented programming concepts and interactive application development. The project focuses on implementing game logic, user interaction, and structured program design using Java.
+A modular Java game project that demonstrates object-oriented programming, game logic, and interactive gameplay mechanics. The game includes multiple modules for characters, enemies, magic, weapons, scenes, and environmental effects.
 
 ## Technologies Used
 - Java
 - Object-Oriented Programming (OOP)
-- Basic Game Logic
+- Modular programming
 - Git & GitHub
 
 ## Project Overview
-This project was created to explore Java programming through game development. The game implements core programming concepts such as classes, objects, loops, conditional logic, and user input to create an interactive gameplay experience.
+This project is a Java-based game designed to showcase advanced programming concepts:
 
-## Features
-- Interactive game logic implemented in Java
-- Use of classes and objects for game structure
-- Conditional statements and loops to control gameplay
-- User input handling
-- Modular and readable program design
+- Player and enemy character classes
+- Magic and weapon systems
+- Game scenes and environmental effects
+- Configurable settings for gameplay
+- Modular code structure for maintainability
 
-## Project Structure
-```
 ## Project Structure
 ```
 main
@@ -38,40 +35,44 @@ main
 ## How to Run
 
 1. Clone the repository
-
 ```
 git clone https://github.com/ShajiHub/JavaProj.git
 ```
 
-2. Navigate to the project folder
-
+2. Navigate to the main folder
 ```
-cd JavaProj
-```
-
-3. Compile the Java files
-
-```
-javac *.java
+cd JavaProj/main
 ```
 
-4. Run the program
+3. Compile all Java files
+```
+javac */*.java GodOfWarMain.java
+```
 
+4. Run the game
 ```
-java Main
+java GodOfWarMain
 ```
+
+## Features
+- Fully modular game design
+- Enemy and player interactions
+- Magic and weapon systems
+- Multiple scenes and environmental effects
+- Extendable and maintainable codebase
 
 ## Learning Outcomes
-- Practiced Java programming fundamentals
-- Applied object-oriented programming concepts
-- Implemented basic game mechanics
-- Improved problem-solving and debugging skills
+- Advanced object-oriented programming in Java
+- Modular game architecture
+- Handling complex interactions between classes
+- Practical experience in building a full Java game
 
 ## Future Improvements
-- Add graphical user interface (GUI)
-- Improve game mechanics and scoring system
-- Add multiple levels or difficulty modes
+- Add a graphical user interface (GUI)
+- Implement a scoring and leveling system
+- Add sound effects and animations
+- Expand game mechanics and more complex AI
 
 ## Author
-Shajitha Begam  
-https://github.com/ShajiHub
+**Shajitha Begam**  
+GitHub: https://github.com/ShajiHub
